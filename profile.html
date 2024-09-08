@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>LinkaCanaã</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="./assets/images/Lc.png"></a>
+            <div class="search-box">
+                <img src="./assets/images/search.png">
+                <input type="text" placeholder="Pesquisar">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="./assets/images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="./assets/images/network.png"><span>Vagas</span></a></li>
+                <li><a href="#"><img src="./assets/images/jobs.png"><span>Serviços</span></a></li>
+                <li><a href="#"><img src="./assets/images/message.png"><span>Mensagens</span></a></li>
+                <li><a href="#"><img src="./assets/images/notification.png"><span>Notificações</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="./assets/images/gabriel2.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+<!-------------------------profile-drop-down-menu-------------------------------------------->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="./assets/images/gabriel2.png">
+                    <div>
+                        <h3>Gabriel Baumann</h3>
+                        <a href="profile.html">Ver seu perfil</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/images/feedback.png">
+                    <p>Dê seu feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/images/setting.png">
+                    <p>Configurações</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/images/help.png">
+                    <p>Ajudak</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/images/display.png">
+                    <p>Acessibilidade</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/images/logout.png">
+                    <p>Sair</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+<!-------------------------navbar-close-------------------------------------------->
+<div class="container">
+    <div class="profile-main">
+        <div class="profile-container">
+            <img src="./assets/images/wallpaperdev.jpg" width="100%">
+            <div class="profile-container-inner">
+                <img src="./assets/images/gabriel2.png" class="profile-pic">
+                <h1>Gabriel Baumann</h1>
+                <b>Desenvolvedor</b>
+                <p>Canaã Dos Carajás-PA &middot; <a href="#">Me contate</a></p>
+                <div class="mutual-connection">
+                    <img src="./assets/images/user-2.png">
+                    <span>1 conexão em comum: Ricardo Bonfim</span>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="primary-btn"><img src="./assets/images/connect.png">Conectar</a>
+                    <a href="#"><img src="./assets/images/chat.png">Conversar</a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis hic magnam necessitatibus corrupti optio! Eius eveniet deleniti aperiam exercitationem facilis, quod vero inventore, quidem est, eligendi iusto recusandae cum rem.</p>
+            <a href="#" class="see-more-link">Saiba Mais...</a>
+        </div>
+        <div class="profile-description">
+            <h2>Experiência</h2>
+            <div class="profile-desc-row">
+                <img src="./assets/images/microsoft.png">
+                <div>
+                    <h3>Desenvolvedor de Banco de Dados</h3>
+                    <b>SEMDES</b>
+                    <b>Jun 2023 - Dias Atuais &middot; 1,5 anos</b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ullam rerum distinctio et! Dolor obcaecati inventore ex ipsam laudantium vitae.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="./assets/images/slack.png">
+                <div>
+                    <h3>Desenvolvedor Full Stack</h3>
+                    <b>Slack</b>
+                    <b>jan 2021 - Jun 2023 &middot; 2,6 anos</b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ullam rerum distinctio et! Dolor obcaecati inventore ex ipsam laudantium vitae.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="./assets/images/google.png">
+                <div>
+                    <h3>Desenvolvedor Web</h3>
+                    <b>Google</b>
+                    <b>Fev 2017 - jan 2021 &middot; 6 anos</b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ullam rerum distinctio et! Dolor obcaecati inventore ex ipsam laudantium vitae.</p>
+                    <hr>
+                </div>
+            </div>
+            <a href="#" class="experience-link">Mostrar todas as 7 experiências <img src="./assets/images/right-arrow.png"></a>
+        </div>
+        <div class="profile-description">
+            <h2>Formação</h2>
+            <div class="profile-desc-row">
+                <img src="./assets/images/stanford.png">
+                <div>
+                    <h3>Uniube</h3>
+                    <b>Análise e Desenvolvimento de Sistemas</b>
+                    <b>2024 - 2026</b>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="./assets/images/north.png">
+                <div>
+                    <h3>Etvp</h3>
+                    <b>Técnico em Eletrotécnica</b>
+                    <b>2023 - 2024</b>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="./assets/images/mit.png">
+                <div>
+                    <h3>Harvard University</h3>
+                    <b>Senior High School</b>
+                    <b>2023 - 2024</b>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>Habilidades</h2>
+            <a href="#" class="skills-btn">Desenvolvimento Web</a>
+            <a href="#" class="skills-btn">Banco de Dados</a>
+            <a href="#" class="skills-btn">Web Design</a>
+            <a href="#" class="skills-btn">UI/UX</a>
+            <a href="#" class="skills-btn">Python</a>
+        </div>
+        <div class="profile-description">
+            <h2>Línguas</h2>
+            <a href="#" class="language-btn">Inglês</a>
+            <a href="#" class="language-btn">Espanhol</a>
+        </div>
+    </div>
+<!------------------------profile-sidebar------------------------------->
+    <div class="profile-sidebar">
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Master the 5 principles of Web Design</p>
+            <div>
+                <img src="./assets/images/gabriel2.png">
+                <img src="./assets/images/mi-logo.png">
+            </div>
+            <b>Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Saiba Mais</a>
+        </div>
+        <div class="sidebar-people">
+            <h3>Pessoas que você talvez conheça</h3>
+            <div class="sidebar-people-row">
+                <img src="./assets/images/user-3.png">
+                <div>
+                    <h2>Manu Rocha</h2>
+                    <p>Web Designer</p>
+                    <a href="#">Conectar</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="./assets/images/user-4.png">
+                <div>
+                    <h2>Luna Gabi</h2>
+                    <p>Desenvolvedora Web</p>
+                    <a href="#">Conectar</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="./assets/images/user-5.png">
+                <div>
+                    <h2>Rafa Pontes</h2>
+                    <p>Gestor de tráfego</p>
+                    <a href="#">Conectar</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="./assets/images/user-1.png">
+                <div>
+                    <h2>Matheus Ribonatto</h2>
+                    <p>Analista de Dados</p>
+                    <a href="#">Conectar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="profile-footer">
+    <div class="sidebar-useful-links">
+        <a href="#">Sobre</a>
+        <a href="#">Acessibilidade</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Baixe o app</a>
+        <a href="#">Mais</a>
+        <div class="copyright-msg">
+            <img src="./assets/images/Lc.png">
+            <p>LinkaCanaã&#169;2024. Todos os direitos reservados</p>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
